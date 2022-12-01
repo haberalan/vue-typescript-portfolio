@@ -53,14 +53,14 @@ const projects: ProjectType[] = [
     technologies: ['vuejs', 'language-typescript'],
     desc: 'Portfolio website (you are right here) written in Vue with TypeScript additionally using the Vuetify UI library.',
     github: 'https://github.com/haberalan/vue-typescript-portfolio',
-    demo: 'demolink',
+    demo: 'https://haber-portfolio.netlify.app/',
   },
   {
     name: 'Shopapp',
     technologies: ['vuejs', 'language-javascript', 'nodejs'],
     desc: 'E-commerce application based on the MEVN stack with additional use of the Vuex.',
     github: 'https://github.com/haberalan/shopapp',
-    demo: 'demolink',
+    demo: 'https://haber-shopapp.netlify.app/',
   },
   {
     name: 'Organizer',
