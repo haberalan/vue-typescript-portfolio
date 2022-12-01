@@ -3,7 +3,7 @@
     <v-container class="mt-16">
       <h2 class="text-h3 text-center">My projects</h2>
       <v-row class="mt-16">
-        <v-col cols="12" v-for="project in projects" :key="project.name" class="mb-16 v-col-lg-6 d-flex justify-center">
+        <v-col cols="12" v-for="project in projects" :key="project.name" class="mb-16 v-col-sm-6 v-col-lg-4 d-flex justify-center">
           <v-sheet max-width="400" class="d-flex flex-column align-center">
             <h3 class="text-h4 font-weight-medium text-center">{{ project.name }}</h3>
             <p class="text-h6 font-weight-regular text-grey-darken-2 text-center mt-2 desc-height">{{ project.desc }}</p>
