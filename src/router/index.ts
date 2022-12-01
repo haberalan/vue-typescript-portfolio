@@ -17,6 +17,12 @@ const routes: Array<RouteRecordRaw> = [
     path: '/aboutme',
     component: AboutMeView,
   },
+  {
+    path: '/:catchAll(.*)*',
+    redirect: () => {
+      return { path: '/' };
+    },
+  },
 ];
 
 const router = createRouter({
