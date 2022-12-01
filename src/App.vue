@@ -1,30 +1,18 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <v-app>
+    <the-header />
+    <v-main>
+      <router-view v-slot="{ Component }">
+        <transition name="scroll-y-transition" mode="out-in">
+          <component :is="Component" />
+        </transition>
+      </router-view>
+    </v-main>
+    <the-footer />
+  </v-app>
 </template>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
-</style>
+<script setup lang="ts">
+import TheHeader from './components/Layout/TheHeader.vue';
+import TheFooter from './components/Layout/TheFooter.vue';
+</script>
