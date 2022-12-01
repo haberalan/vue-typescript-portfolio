@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <the-header />
-    <v-main>
+    <v-main class="my-16">
       <router-view v-slot="{ Component }">
         <transition name="scroll-y-transition" mode="out-in">
           <component :is="Component" />
