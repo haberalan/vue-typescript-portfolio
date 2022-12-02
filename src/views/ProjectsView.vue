@@ -46,7 +46,7 @@ const projects: ProjectType[] = [
     technologies: ['language-javascript'],
     desc: 'Simple pure JavaScript Tic Tac Toe game with usage of minimax algorithm.',
     github: 'https://github.com/haberalan/javascript-tic-tac-toe',
-    demo: 'https://haberalan.github.io/tic-tac-toe/',
+    demo: 'https://haberalan.github.io/javascript-tic-tac-toe/',
   },
   {
     name: 'Portfolio',
