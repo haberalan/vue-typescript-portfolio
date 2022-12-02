@@ -30,7 +30,7 @@ const projects: ProjectType[] = [
   {
     name: 'Clothes shop',
     technologies: ['react', 'language-typescript', 'nodejs'],
-    desc: 'E-commerce application based on the MERN stack, written in TypeScript with additional use of the Redux Toolkit.',
+    desc: 'E-commerce app based on the MERN stack, written in TypeScript with additional use of the Redux Toolkit.',
     github: 'https://github.com/haberalan/react-typescript-clothes-shop',
     demo: 'https://haber-clothes-shop.netlify.app/',
   },
@@ -56,11 +56,11 @@ const projects: ProjectType[] = [
     demo: 'https://haber-portfolio.netlify.app/',
   },
   {
-    name: 'Shopapp',
+    name: 'Notes',
     technologies: ['vuejs', 'language-javascript', 'nodejs'],
-    desc: 'E-commerce application based on the MEVN stack with additional use of the Vuex.',
-    github: 'https://github.com/haberalan/shopapp',
-    demo: 'https://haber-shopapp.netlify.app/',
+    desc: 'Notes app based on the MEVN stack with additional use of the Vuex and the Vuetify UI library.',
+    github: 'https://github.com/haberalan/vue-javascript-notes',
+    demo: 'https://haber-notes.netlify.app/',
   },
   {
     name: 'Organizer',
