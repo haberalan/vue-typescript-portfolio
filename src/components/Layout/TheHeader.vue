@@ -1,5 +1,5 @@
 <template>
-  <v-container class="d-flex justify-space-between align-center">
+  <v-container class="d-flex justify-space-between align-center container">
     <router-link to="/" class="text-h4 text-lg-h3 font-weight-medium link">Haber</router-link>
     <v-list class="d-none d-sm-flex">
       <v-btn variant="text" class="mx-1 text-h6" to="/">HOME</v-btn>
@@ -30,11 +30,16 @@
 <script setup lang="ts"></script>
 
 <style scoped>
+.container {
+  max-width: 1400px;
+}
+
 .link {
   color: inherit;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
 }
+
 .link:hover {
   color: #616161;
 }
