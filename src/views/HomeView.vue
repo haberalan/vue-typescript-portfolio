@@ -21,5 +21,3 @@
 <script setup lang="ts">
 import homeJSON from '../assets/home.json';
 </script>
-
-<style scoped></style>
