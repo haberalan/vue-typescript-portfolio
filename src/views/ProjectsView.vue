@@ -28,11 +28,25 @@ import { ProjectType } from '../types/Project';
 
 const projects: ProjectType[] = [
   {
+    name: 'Organizer',
+    technologies: ['react', 'language-typescript', 'nodejs'],
+    desc: 'Organizer app based on the MERN stack with TypeScript additionally using the Material UI library.',
+    github: 'https://github.com/haberalan/react-typescript-organizer',
+    demo: 'https://haber-organizer.netlify.app/',
+  },
+  {
     name: 'Clothes shop',
     technologies: ['react', 'language-typescript', 'nodejs'],
     desc: 'E-commerce app based on the MERN stack, written in TypeScript with additional use of the Redux Toolkit.',
     github: 'https://github.com/haberalan/react-typescript-clothes-shop',
     demo: 'https://haber-clothes-shop.netlify.app/',
+  },
+  {
+    name: 'Notes',
+    technologies: ['vuejs', 'language-javascript', 'nodejs'],
+    desc: 'Notes app based on the MEVN stack with additional use of the Vuex and the Vuetify UI library.',
+    github: 'https://github.com/haberalan/vue-javascript-notes',
+    demo: 'https://haber-notes.netlify.app/',
   },
   {
     name: 'Weather Forecast',
@@ -54,20 +68,6 @@ const projects: ProjectType[] = [
     desc: 'Portfolio website (you are right here) written in Vue with TypeScript additionally using the Vuetify UI library.',
     github: 'https://github.com/haberalan/vue-typescript-portfolio',
     demo: 'https://haber-portfolio.netlify.app/',
-  },
-  {
-    name: 'Notes',
-    technologies: ['vuejs', 'language-javascript', 'nodejs'],
-    desc: 'Notes app based on the MEVN stack with additional use of the Vuex and the Vuetify UI library.',
-    github: 'https://github.com/haberalan/vue-javascript-notes',
-    demo: 'https://haber-notes.netlify.app/',
-  },
-  {
-    name: 'Organizer',
-    technologies: ['react', 'language-javascript', 'nodejs'],
-    desc: 'Organizer app based on the MERN stack.',
-    github: 'https://github.com/haberalan/react-javascript-organizer',
-    demo: 'https://haber-organizer.netlify.app/',
   },
 ];
 </script>
