@@ -6,7 +6,7 @@
       <v-btn variant="plain" class="px-1 px-sm-3" href="https://twitter.com/_AlanHaber">TWITTER</v-btn>
       <v-btn variant="plain" class="px-1 px-sm-3" href="mailto:alanhaberwork@pm.me">EMAIL</v-btn>
       <v-col cols="12" class="text-center mt-2">
-        <h3 class="text-overline">&copy; 2022 Alan Haber</h3>
+        <h3 class="text-overline">&copy; {{ new Date().getFullYear() }} Alan Haber</h3>
       </v-col>
     </v-row>
   </v-footer>
