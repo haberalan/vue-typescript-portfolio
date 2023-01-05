@@ -76,6 +76,13 @@ const projects: ProjectType[] = [
     github: 'https://github.com/haberalan/react-javascript-chat',
     demo: 'https://haber-chat.netlify.app/',
   },
+  {
+    name: 'Account',
+    technologies: ['react', 'language-typescript', 'nodejs'],
+    desc: 'Account app with profile photos based on the MERN stack with TypeScript additionally using the Material UI library.',
+    github: 'https://github.com/haberalan/react-typescript-account',
+    demo: 'https://haber-account.netlify.app/',
+  },
 ];
 </script>
 
